@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="The HIDStructures Class primarily exists to provide structures for the HIDLowLevelFunctions class. These structures are used for the input/output parameters for the Win32 Functions">
+    <Position X="0.5" Y="0.5" Height="0.729" Width="4.033" />
+  </Comment>
+  <Class Name="HIDDevices.HIDLowLevelFunctions">
+    <Position X="3.25" Y="1.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AASAwEAAAAAAAAABAAQAACQABAAAAAAQAEAQgAAAAAA=</HashCode>
+      <FileName>HIDLowLevel\HIDLowLevelFunctions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HIDDevices.HIDStructures">
+    <Position X="0.5" Y="1.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="HIDDevices.HIDStructures.DIGCF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HIDLowLevel\HIDStructures.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="HIDDevices.HIDStructures.FileAttributes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HIDLowLevel\HIDStructures.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="HIDDevices.HIDStructures.DeviceInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HIDLowLevel\HIDStructures.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="HIDDevices.HIDStructures.DeviceInterfaceInformation" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HIDLowLevel\HIDStructures.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="HIDDevices.HIDStructures.DevicePath" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HIDLowLevel\HIDStructures.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="HIDDevices.HIDStructures.HIDDeviceAttributes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HIDLowLevel\HIDStructures.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HIDLowLevel\HIDStructures.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

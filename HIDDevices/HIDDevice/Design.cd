@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="HIDDevices.HIDDeviceReportReceivedEventargs">
+    <Position X="5.75" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>HIDDevice\Events.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HIDDevices.HIDDeviceCollection" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.5" Width="4.5" />
+    <AssociationLine Name="devices" Type="HIDDevices.HIDDevice">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.132" Y="0.071" Height="0.182" Width="1.79" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEIAAEAAAAAAABAQCABAFAQAIAAAAEAACAAAAIBUIAA=</HashCode>
+      <FileName>HIDDevice\HIDDeviceCollection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="this[System.Int32]" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="devices" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HIDDevices.HIDDeviceException">
+    <Position X="11.5" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HIDDevice\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HIDDevices.HIDDeviceConnectionException">
+    <Position X="8.25" Y="6.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HIDDevice\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HIDDevices.HIDDeviceInvalidPathException">
+    <Position X="5.25" Y="5.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HIDDevice\Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HIDDevices.HIDDevice" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>cAwAgBAAUCAAAgBAAEggAoQAIBdAECAAAQsAIAAAAIA=</HashCode>
+      <FileName>HIDDevice\HIDDevice.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.ApplicationException" Collapsed="true">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
